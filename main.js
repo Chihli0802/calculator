@@ -12,37 +12,38 @@ const selector = document.querySelector("#selector")
 btn.addEventListener("click", function () {
     let con = "";
     let ans;
+
     switch (selector.value) {
         case "0":
-
             ans = (+input1.value) + (+input2.value);
             console.log(ans);
             con = `<p class="ms-5 fs-3">${ans}</p>`;
             answerArea.innerHTML = con;
             break;
-        case "1":
 
+        case "1":
             ans = parseInt(input1.value) - parseInt(input2.value);
             console.log(ans);
             con = `<p class="ms-5 fs-3">${ans}</p>`;
             answerArea.innerHTML = con;
             break;
-        case "2":
 
+        case "2":
             ans = parseInt(input1.value) * parseInt(input2.value);
             console.log(ans);
             con = `<p class="ms-5 fs-3">${ans}</p>`;
             answerArea.innerHTML = con;
             break;
-        case "3":
 
+        case "3":
             ans = parseInt(input1.value) / parseInt(input2.value);
             console.log(ans);
             con = `<p class="ms-5 fs-3">${ans}</p>`;
             answerArea.innerHTML = con;
             break;
+
     }
 
-
-
 })
+
+
