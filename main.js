@@ -17,28 +17,28 @@ btn.addEventListener("click", function () {
         case "0":
             ans = (+input1.value) + (+input2.value);
             console.log(ans);
-            con = `<p class="ms-5 fs-3">${ans}</p>`;
+            con =  `${ans}`;
             answerArea.innerHTML = con;
             break;
 
         case "1":
             ans = parseInt(input1.value) - parseInt(input2.value);
             console.log(ans);
-            con = `<p class="ms-5 fs-3">${ans}</p>`;
+            con =  `${ans}`;
             answerArea.innerHTML = con;
             break;
 
         case "2":
             ans = parseInt(input1.value) * parseInt(input2.value);
             console.log(ans);
-            con = `<p class="ms-5 fs-3">${ans}</p>`;
+            con =  `${ans}`;
             answerArea.innerHTML = con;
             break;
 
         case "3":
             ans = parseInt(input1.value) / parseInt(input2.value);
             console.log(ans);
-            con = `<p class="ms-5 fs-3">${ans}</p>`;
+            con = `${ans}`;
             answerArea.innerHTML = con;
             break;
 
